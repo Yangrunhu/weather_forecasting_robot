@@ -1,0 +1,2 @@
+ffmpeg.exe -i 124.mp3 -vn -acodec copy -ss 00:00:00 -t 00:00:02 output.wav
+ffmepg -i blank_audio_final.mp3 -f wav output.wav
